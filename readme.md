@@ -5,16 +5,16 @@
 </p>
 
   <p align="center">
-    <a href="https://github.com/anuraghazra/github-readme-stats/actions">
-      <img alt="Tests Passing" src="https://github.com/anuraghazra/github-readme-stats/workflows/Test/badge.svg" />
+    <a href="https://github.com/ikhsandev/github-readme-stats/actions">
+      <img alt="Tests Passing" src="https://github.com/ikhsandev/github-readme-stats/workflows/Test/badge.svg" />
     </a>
     <a href="https://codecov.io/gh/anuraghazra/github-readme-stats">
       <img src="https://codecov.io/gh/anuraghazra/github-readme-stats/branch/master/graph/badge.svg" />
     </a>
-    <a href="https://github.com/anuraghazra/github-readme-stats/issues">
+    <a href="https://github.com/ikhsandev/github-readme-stats/issues">
       <img alt="Issues" src="https://img.shields.io/github/issues/anuraghazra/github-readme-stats?color=0088ff" />
     </a>
-    <a href="https://github.com/anuraghazra/github-readme-stats/pulls">
+    <a href="https://github.com/ikhsandev/github-readme-stats/pulls">
       <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/anuraghazra/github-readme-stats?color=0088ff" />
     </a>
   </p>
@@ -22,9 +22,9 @@
   <p align="center">
     <a href="#demo">View Demo</a>
     ·
-    <a href="https://github.com/anuraghazra/github-readme-stats/issues/new/choose">Report Bug</a>
+    <a href="https://github.com/ikhsandev/github-readme-stats/issues/new/choose">Report Bug</a>
     ·
-    <a href="https://github.com/anuraghazra/github-readme-stats/issues/new/choose">Request Feature</a>
+    <a href="https://github.com/ikhsandev/github-readme-stats/issues/new/choose">Request Feature</a>
   </p>
   <p align="center">
     <a href="readme_cn.md">简体中文</a>
@@ -50,7 +50,7 @@ Copy paste this into your markdown content, and that's it. Simple!
 Change the `?username=` value to your GitHub's username.
 
 ```md
-[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![Ikhsan Andriyawan github stats](https://ikhsandev-github-stats.vercel.app/api?username=ikhsandev)](https://github.com/ikhsandev/github-readme-stats)
 ```
 
 _Note: Ranks are calculated based on user's stats, see [src/calculateRank.js](./src/calculateRank.js)_
@@ -62,7 +62,7 @@ To hide any specific stats, you can pass a query parameter `?hide=` with comma s
 > Options: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&hide=contribs,prs])
+![Ikhsan Andriyawan github stats](https://ikhsandev-github-stats.vercel.app/api?username=ikhsandev&hide=contribs,prs])
 ```
 
 ### Adding private contributions count to total commits count
@@ -74,7 +74,7 @@ _Note: If you are deploying this project yourself, the private contributions wil
 > Options: `&count_private=true`
 
 ```md
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&count_private=true)
+![Ikhsan Andriyawan github stats](https://ikhsandev-github-stats.vercel.app/api?username=ikhsandev&count_private=true)
 ```
 
 ### Showing icons
@@ -82,7 +82,7 @@ _Note: If you are deploying this project yourself, the private contributions wil
 To enable icons, you can pass `show_icons=true` in the query param, like so:
 
 ```md
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true)
+![Ikhsan Andriyawan github stats](https://ikhsandev-github-stats.vercel.app/api?username=ikhsandev&show_icons=true)
 ```
 
 ### Themes
@@ -92,7 +92,7 @@ With inbuilt themes you can customize the look of the card without doing any [ma
 Use `?theme=THEME_NAME` parameter like so :-
 
 ```md
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=radical)
+![Ikhsan Andriyawan github stats](https://ikhsandev-github-stats.vercel.app/api?username=ikhsandev&show_icons=true&theme=radical)
 ```
 
 #### All inbuilt themes :-
@@ -138,19 +138,19 @@ Yey! You are no longer limited to 6 pinned repositories.
 
 Copy-paste this code into your readme and change the links.
 
-Endpoint: `api/pin?username=anuraghazra&repo=github-readme-stats`
+Endpoint: `api/pin?username=ikhsandev&repo=github-readme-stats`
 
 ```md
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
+[![ReadMe Card](https://ikhsandev-github-stats.vercel.app/api/pin/?username=ikhsandev&repo=github-readme-stats)](https://github.com/ikhsandev/github-readme-stats)
 ```
 
 ### Demo
 
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
+[![ReadMe Card](https://ikhsandev-github-stats.vercel.app/api/pin/?username=ikhsandev&repo=github-readme-stats)](https://github.com/ikhsandev/github-readme-stats)
 
 Use [show_owner](#customization) variable to include the repo's owner username
 
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&show_owner=true)](https://github.com/anuraghazra/github-readme-stats)
+[![ReadMe Card](https://ikhsandev-github-stats.vercel.app/api/pin/?username=ikhsandev&repo=github-readme-stats&show_owner=true)](https://github.com/ikhsandev/github-readme-stats)
 
 # Top Languages Card
 
@@ -162,10 +162,10 @@ _NOTE: Top languages does not indicate my skill level or something like that, it
 
 Copy-paste this code into your readme and change the links.
 
-Endpoint: `api/top-langs?username=anuraghazra`
+Endpoint: `api/top-langs?username=ikhsandev`
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://ikhsandev-github-stats.vercel.app/api/top-langs/?username=ikhsandev)](https://github.com/ikhsandev/github-readme-stats)
 ```
 
 ### Hide individual languages
@@ -173,12 +173,12 @@ Endpoint: `api/top-langs?username=anuraghazra`
 You can use `?hide=language1,language2` parameter to hide individual languages.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&hide=javascript,html)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://ikhsandev-github-stats.vercel.app/api/top-langs/?username=ikhsandev&hide=javascript,html)](https://github.com/ikhsandev/github-readme-stats)
 ```
 
 ### Demo
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://ikhsandev-github-stats.vercel.app/api/top-langs/?username=ikhsandev)](https://github.com/ikhsandev/github-readme-stats)
 
 ---
 
@@ -186,33 +186,33 @@ You can use `?hide=language1,language2` parameter to hide individual languages.
 
 - Default
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)
+![Ikhsan Andriyawan github stats](https://ikhsandev-github-stats.vercel.app/api?username=ikhsandev)
 
 - Hiding specific stats
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&hide=contribs,issues])
+![Ikhsan Andriyawan github stats](https://ikhsandev-github-stats.vercel.app/api?username=ikhsandev&hide=contribs,issues])
 
 - Showing icons
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&hide=issues&show_icons=true)
+![Ikhsan Andriyawan github stats](https://ikhsandev-github-stats.vercel.app/api?username=ikhsandev&hide=issues&show_icons=true)
 
 - Themes
 
 Choose from any of the [default themes](#themes)
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=radical)
+![Ikhsan Andriyawan github stats](https://ikhsandev-github-stats.vercel.app/api?username=ikhsandev&show_icons=true&theme=radical)
 
 - Customizing stats card
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api/?username=anuraghazra&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![Ikhsan Andriyawan github stats](https://ikhsandev-github-stats.vercel.app/api/?username=ikhsandev&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 - Customizing repo card
 
-![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=anuraghazra&repo=github-readme-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+![Customized Card](https://ikhsandev-github-stats.vercel.app/api/pin?username=ikhsandev&repo=github-readme-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
 
 - Top languages
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://ikhsandev-github-stats.vercel.app/api/top-langs/?username=ikhsandev)](https://github.com/ikhsandev/github-readme-stats)
 
 ---
 
@@ -221,21 +221,21 @@ Choose from any of the [default themes](#themes)
 You usually won't be able to layout the images side by side. To do that you can use this approach:
 
 ```md
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats" />
+<a href="https://github.com/ikhsandev/github-readme-stats">
+  <img align="left" src="https://ikhsandev-github-stats.vercel.app/api/pin/?username=ikhsandev&repo=github-readme-stats" />
 </a>
-<a href="https://github.com/anuraghazra/convoychat">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=convoychat" />
+<a href="https://github.com/ikhsandev/convoychat">
+  <img align="left" src="https://ikhsandev-github-stats.vercel.app/api/pin/?username=ikhsandev&repo=convoychat" />
 </a>
 ```
 
 ## Deploy on your own Vercel instance
 
-Since the GitHub API only allows 5k requests per hour, it is possible that my `https://github-readme-stats.vercel.app/api` could hit the rate limiter. If you host it on your own Vercel server, then you don't have to worry about anything. Click on the deploy button to get started!
+Since the GitHub API only allows 5k requests per hour, it is possible that my `https://ikhsandev-github-stats.vercel.app/api` could hit the rate limiter. If you host it on your own Vercel server, then you don't have to worry about anything. Click on the deploy button to get started!
 
-NOTE: Since [#58](https://github.com/anuraghazra/github-readme-stats/pull/58) we should be able to handle more than 5k requests and have no issues with downtime :D
+NOTE: Since [#58](https://github.com/ikhsandev/github-readme-stats/pull/58) we should be able to handle more than 5k requests and have no issues with downtime :D
 
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/anuraghazra/github-readme-stats)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/ikhsandev/github-readme-stats)
 
 <details>
  <summary>Guide on setting up Vercel</summary>
